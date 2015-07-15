@@ -1,0 +1,26 @@
+<div class="col-md-4 col-md-offset-4">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title"><a href="/" class="glyphicon glyphicon-refresh"></a>
+                <span>Shorten you links</span>
+            </h3>
+        </div>
+        <div class="panel-body main">
+            <fieldset>
+                <div class="form-group">
+                    <p>Please enter a link to shorten</p>
+                    <input ng-model="longurl" style="width:100%">
+                </div>
+            </fieldset>
+            <div class="form-group upload" ng-show="shorturl">
+                <div class="well">
+                    <a href="{{shorturl}}">{{shorturl}}</a>
+                </div>
+            </div>
+            <div class="form-group upload" ng-show="!shorturl">
+                <button type="button" class="btn btn-lg btn-success btn-block" ng-click="shorten()" >Make it shorter</button>
+            </div>
+        </div>
+
+    </div>
+</div>
