@@ -1,6 +1,4 @@
-<snippet>
-  <content><![CDATA[
-# ${1:Snug-URL}
+# Snug-URL
 
 When the link is too long, there is SNUG-URL!
 
@@ -36,7 +34,4 @@ TODO: Write credits
 ## License
 
 TODO: Write license
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
 
