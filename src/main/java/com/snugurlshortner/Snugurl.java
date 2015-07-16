@@ -80,6 +80,8 @@ public class Snugurl extends Verticle {
             log.info("Contacting redis server at " + redis);
             jedis = new Jedis(redis);
         } else {
+
+            //see the config.json file. Il redis is not set...
             log.info("Using sharedMap (no persistence!)");
             store = vertx.sharedData().getMap(hashkey);
         }
