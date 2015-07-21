@@ -1,0 +1,16 @@
+{
+
+  // Java verticle
+ "main":"com.snugurlshortner.SnugurlServer",
+
+  // If your module is going to be registered in the Vert.x module registry you will also need the following
+  // mandatory fields
+  "description":"Vert.x url shortner with redis",
+  "licenses": ["OSEF licence v1"],
+  "author": "Gruppo-11",
+
+  // Optional fields
+  "homepage": "https://github.com",
+
+  "auto-redeploy": true
+}

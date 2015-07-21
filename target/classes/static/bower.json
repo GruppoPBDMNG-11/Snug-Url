@@ -1,0 +1,30 @@
+{
+  "name": "snugurl",
+  "version": "0.0.1",
+  "authors": [
+    "Gruppo 11"
+  ],
+  "description": "url shortner",
+  "main": "js/app.js",
+  "license": "MIT",
+  "homepage": "http://example.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.20",
+    "bootstrap": "~3.2.0",
+    "fontawesome": "~4.1.0",
+    "underscore": "~1.6.0",
+    "angular-bootstrap": "~0.11.0",
+    "zeroclipboard": "~2.1.5",
+    "ng-clip": "~0.2.1",
+    "angular-route": "~1.2.21",
+    "angular-vertxbus": "~0.7.0"
+  }
+}

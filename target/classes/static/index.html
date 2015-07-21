@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app="snugurl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="url shortening service">
+    <meta name="author" content="Gruppo 11">
+
+    <title>SNUG-URL</title>
+
+    <link href='static/bower_components/bootstrap/dist/css/bootstrap.css' rel='stylesheet' type='text/css'>
+    <link href='static/bower_components/fontawesome/css/font-awesome.css' rel='stylesheet' type='text/css'>
+
+    <link href='/static/css/style.css' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<div class="container">
+    <div class="row area">
+        <div ng-view id="global"></div>
+    </div>
+</div>
+
+<!-- framework, modules and libraries -->
+<script src="static/bower_components/jquery/dist/jquery.js" type="text/javascript"></script>
+<script src="static/bower_components/bootstrap/dist/js/bootstrap.js" type="text/javascript"></script>
+<script src="static/bower_components/angular/angular.js" type="text/javascript"></script>
+<script src="static/bower_components/angular-route/angular-route.js" type="text/javascript"></script>
+<script src="static/bower_components/angular-bootstrap/ui-bootstrap-tpls.js" type="text/javascript"></script>
+<script src="static/bower_components/underscore/underscore.js" type="text/javascript"></script>
+<script src="static/bower_components/zeroclipboard/dist/ZeroClipboard.js" type="text/javascript"></script>
+<script src="static/bower_components/ng-clip/src/ngClip.js" type="text/javascript"></script>
+<script src="static/bower_components/sockjs/sockjs.js" type="text/javascript"></script>
+<script src="static/bower_components/vertxbus.js/index.js" type="text/javascript"></script>
+<script src="static/bower_components/angular-vertxbus/dist/angular-vertxbus-0.7.0.js" type="text/javascript"></script>
+
+<!-- application -->
+<script src="static/js/app.js" type="text/javascript"></script>
+
+</body>
+</html>
