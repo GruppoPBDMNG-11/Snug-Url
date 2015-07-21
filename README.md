@@ -2,8 +2,6 @@
 
 When the link is too long, there is SNUG-URL!
 
-## Installation
-
 ### File di configurazione
 Modifica dei parametri globali di configurazione (url del server redis, porta di ascolto del server http ecc…) contenute nel file config.json<br />
 
