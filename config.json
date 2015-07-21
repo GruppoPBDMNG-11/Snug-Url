@@ -1,0 +1,9 @@
+{
+    "host" : "localhost",
+    "port" : 2688,
+    "domain" : "http://localhost:2688",
+    "tries" : 900,
+    "startLen" : 2,
+    "redis" : "127.0.0.1",
+    "hashkey" : "snugurl.dbstore"
+}
