@@ -33,7 +33,7 @@ Per avviare l’applicazione, effettuare un “build” da shell del file jar co
 `mvn vertx:fatJar`<br />
 `java -jar target/snugurl-1.0-fat.jar -conf config.json`
 
-## Usage
+## Uso
 Go to web browser and digit http://localhost:2688. The http server is listening on this port but you can change it in the config.json file. Then insert the long URL and click the button: the system will get you the short URL.
 
 ## Contributing
