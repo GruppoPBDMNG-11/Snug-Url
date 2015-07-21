@@ -5,8 +5,8 @@ When the link is too long, there is SNUG-URL!
 ## Installation
 
 ### Start Redis on docker
-docker run -d --name redis -p 6379:6379 redis
-docker exec -it <container-id> redis-cli
+`docker run -d --name redis -p 6379:6379 redis`
+`docker exec -it <container-id> redis-cli`
 
 ### Start Project
 TODO
