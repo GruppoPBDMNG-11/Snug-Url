@@ -5,8 +5,8 @@ When the link is too long, there is SNUG-URL!
 ### File di configurazione
 Modifica dei parametri globali di configurazione (url del server redis, porta di ascolto del server http ecc…) contenute nel file config.json<br />
 
-{<br />
-    "host" : "localhost",                   // interface to listen to<br />
+>{ <br />
+>   "host" : "localhost",                   // interface to listen to<br />
     "port" : 2688,                          // port to listen to<br />
     "domain" : "http://localhost:2688",     // base domain<br />
     "startLen" : 2,                         // base length for string generation<br />
