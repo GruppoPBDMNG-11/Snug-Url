@@ -18,10 +18,10 @@ Modifica dei parametri globali di configurazione (url del server redis, porta di
 ### Configurazione e Avvio di docker
 Dopo aver scaricato e installato l'immagine di redis.
 
-Avviare di Redis sul docker container in ascolto sulla porta 6379:<br />
+Avviare Redis sul docker container in ascolto sulla porta 6379:<br />
 `docker run -d --name redis -p 6379:6379 redis`
 
-Viauslizzare l’ID del container appena avviato con il seguente comando:<br />
+Visualizzare l’ID del container appena avviato con il seguente comando:<br />
 `docker ps`
 
 Avviare la shell Redis inserendo l’ID del container letto in precedenza:<br />
