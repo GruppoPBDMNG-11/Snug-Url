@@ -55,7 +55,7 @@ function SnugCtrl($scope, $dialog, $route, $location, vertxEventBusService) {
 
     $scope.shorten = function () {
         console.log("shorten", $scope.longurl, eb);
-        eb.send("snugurl.set", { url: $scope.longurl })
+        eb.send("snugurl.set", { url: $scope.longurl }) //send
             .then(function (result) {
                 if (result.status == 200) {
                     $scope.shorturl = result.value;
